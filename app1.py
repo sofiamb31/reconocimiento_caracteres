@@ -6,7 +6,9 @@ from PIL import Image
 
 
 st.title("Reconocimiento óptico de Caracteres")
+image = Image.open('dora la exploradora.jpeg')
 
+st.image(image,width=300)
 img_file_buffer = st.camera_input("Toma una Foto que contenga letras y esta página lo convertira en un texto")
 
 with st.sidebar:

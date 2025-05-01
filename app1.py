@@ -31,7 +31,16 @@ if img_file_buffer is not None:
     st.write(text) 
     
 
-
+st.markdown("""
+    <style>
+        body {
+            background-color: #f0f0f0; /
+        }
+        .stApp {
+            background-color: #ADD8E6; /
+        }
+    </style>
+    """, unsafe_allow_html=True)
     
 
 

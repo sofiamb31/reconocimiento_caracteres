@@ -7,7 +7,7 @@ from PIL import Image
 
 st.title("Reconocimiento óptico de Caracteres")
 
-img_file_buffer = st.camera_input("Toma una Foto")
+img_file_buffer = st.camera_input("Toma una Foto que contenga letras y esta página lo convertira en un texto")
 
 with st.sidebar:
       filtro = st.radio("Aplicar Filtro",('Con Filtro', 'Sin Filtro'))
